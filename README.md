@@ -32,6 +32,22 @@
 $ npm install
 ```
 
+# Runing the application using Docker
+
+```bash
+docker-compose up -d --build
+
+OR
+
+docker-compose build
+docker-compose up
+
+If you face permission issues then try to run 
+above commands with sudo on linux system
+
+
+```
+
 ## Running the app
 
 ```bash
@@ -52,23 +68,6 @@ I will be sharing the details in an email. Please add that values for the below 
 
 MONGO_ATLAS_USER=XXXX
 MONGO_ATLAS_PASSWORD=XXXXXX
-
-```
-
-
-#To run our application using Docker
-
-```bash
-docker-compose up -d --build
-
-OR
-
-docker-compose build
-docker-compose up
-
-If you face permission issues then try to run 
-above commands with sudo on linux system
-
 
 ```
 
