@@ -45,6 +45,33 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+# env Setup
+```bash
+Replace the XXXXX with your MongoDB Atlas User and Password
+I will be sharing the details in an email. Please add that values for the below keys in the .env
+
+MONGO_ATLAS_USER=XXXX
+MONGO_ATLAS_PASSWORD=XXXXXX
+
+```
+
+
+#To run our application using Docker
+
+```bash
+docker-compose up -d --build
+
+OR
+
+docker-compose build
+docker-compose up
+
+If you face permission issues then try to run 
+above commands with sudo on linux system
+
+
+```
+
 ## Test
 
 ```bash
